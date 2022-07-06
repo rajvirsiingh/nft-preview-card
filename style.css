@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin-top: 90px;
+}
+h2 {
+  font-weight: 600;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin-top: 15px;
+}
+.product {
+  width: 100%;
+  border-radius: 15px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(0, 0%, 60%);
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 20px;
+  padding-bottom: 35px;
+}
+.profile-img {
+  width: 50px;
+  float: left;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: hsl(215, 32%, 27%);
+  margin-right: 10px;
+}
+.profile p {
+  position: relative;
+  top: 12px;
+}
+.name {
+  color: #fff;
+}
+.time {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(0, 0%, 60%);
+  position: relative;
+  left: 100px;
+}
+.icon {
+  width: 18px;
+  position: relative;
+  top: 2px;
+}
+.icon1 {
+  width: 15px;
+  position: relative;
+  top: 5px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.overlay {
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: hsl(178, 100%, 50%);
+  position: absolute;
+  top: 110px;
+  padding: 125px 0;
+  opacity: 0;
+}
+.product-image:hover .overlay {
+  opacity: 0.7;
+}
